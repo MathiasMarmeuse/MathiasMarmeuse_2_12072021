@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*Body*/
+
+body {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/*Activités*/
+
+.activites {
+}
+
+/*Footer*/
+
+footer {
+}
+.infos {
+  width: 33%;
+}
+
+#conteneurfooter {
+  display: flex;
+  justify-content: stretch;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
