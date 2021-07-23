@@ -1,20 +1,98 @@
 * {
   padding: 0;
   margin: 0;
+  
+  font-family: 'Raleway', sans-serif;
 }
 
 /*Body*/
 
-body {
-  padding-left: 40px;
-  padding-right: 40px;
-}
 
 /*Activités*/
 
-.activites {
+#activites {
+  margin: 50px;
 }
 
+#conteneuractivites {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 40px 40px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "tg1 g tg2 m1"
+    "tg1 g tg2 m1"
+    "tg1 g tg2 m1"
+    "tg1 g tg2 m1"
+    "tg1 g tg2 m1"
+    "tg1 g tg2 m1"
+    "tg1 g tg2 m2"
+    "tg1 p tg2 m2"
+    "tg1 p tg2 m2"
+    "tg1 p tg2 m2"
+    "tg1 p tg2 m2"
+    "tg1 p tg2 m2";
+
+    height: 550px;
+}
+
+.tg1 {
+  grid-area: tg1;
+  background-image: url("images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+  max-width: 1fr;
+  
+}
+
+.tg2 {
+  grid-area: tg2;
+  background-image: url("images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+  
+}
+
+.p {
+  grid-area: p;
+  min-height: 120px;
+  background-image: url("images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+  
+}
+
+.g {
+  grid-area: g;
+  background-image: url("images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+  
+
+  
+}
+
+.m1 {
+  grid-area: m1;
+  background-image: url("images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+  
+}
+
+.m2 {
+  grid-area: m2;
+  background-image: url("images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+  
+}
+
+.intitule{
+  background-color: white;
+  font-weight: bold;
+  padding: 20px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column-reverse;
+  box-shadow:  5px 5px 30px #d9d9d9;
+  background-size: cover;
+  background-position: center ;
+  border-radius: 15px;
+} 
 /*Footer*/
 
 footer {
@@ -27,5 +105,15 @@ footer {
   display: flex;
   justify-content: stretch;
   background-color: #f2f2f2;
-  padding: 20px;
+  padding: 20px 50px;
 }
+
+a:link 
+{ 
+ text-decoration:none; 
+ color: black;
+} 
+
+a:visited {
+  color: black;
+  }
