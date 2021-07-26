@@ -1,12 +1,89 @@
 * {
   padding: 0;
   margin: 0;
-  
-  font-family: 'Raleway', sans-serif;
+
+  font-family: "Raleway", sans-serif;
 }
 
 /*Body*/
 
+/*Hébergement*/
+
+/*Populaires*/
+#populaires {
+  margin: 50px;
+  max-width: 25vw;
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.titrepop {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  margin-left: 20px;
+}
+
+.fas {
+  margin-right: 20px;
+}
+
+.far {
+  color: blue;
+  padding-top: 15px;
+}
+
+.conteneurcartes {
+  display: flex;
+  flex-direction: column;
+}
+
+.popcard {
+  display: flex;
+  margin: 20px 40px 20px 40px;
+
+  background-color: white;
+  border-radius: 15px;
+}
+
+.popimg1 {
+  width: 150px;
+  height: 150px;
+  background-image: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  box-shadow: 5px 5px 30px #d9d9d9;
+  display: flex;
+  flex-direction: row;
+}
+
+.popimg2 {
+  width: 150px;
+  height: 150px;
+  background-image: url("images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  box-shadow: 5px 5px 30px #d9d9d9;
+}
+
+.popimg3 {
+  width: 150px;
+  height: 150px;
+  background-image: url("images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  box-shadow: 5px 5px 30px #d9d9d9;
+}
+
+.infoimg {
+  margin-left: 20px;
+  padding-top: 20px;
+}
 
 /*Activités*/
 
@@ -34,65 +111,58 @@
     "tg1 p tg2 m2"
     "tg1 p tg2 m2";
 
-    height: 550px;
+  height: 550px;
 }
 
 .tg1 {
   grid-area: tg1;
-  background-image: url("images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+  background-image: url("images/activites/3_medium/activitesvieuxport.jpg");
   max-width: 1fr;
-  
 }
 
 .tg2 {
   grid-area: tg2;
-  background-image: url("images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
-  
+  background-image: url("images/activites/3_medium/activitescalanques.jpg");
 }
 
 .p {
   grid-area: p;
   min-height: 120px;
-  background-image: url("images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
-  
+  background-image: url("images/activites/4_small/activitesfrioul.jpg");
 }
 
 .g {
   grid-area: g;
-  background-image: url("images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
-  
-
-  
+  background-image: url("images/activites/4_small/activitespomegues.jpg");
 }
 
 .m1 {
   grid-area: m1;
-  background-image: url("images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
-  
+  background-image: url("images/activites/4_small/activitesnotredame.jpg");
 }
 
 .m2 {
   grid-area: m2;
-  background-image: url("images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
-  
+  background-image: url("images/activites/4_small/activiteslongchamp.jpg");
 }
 
-.intitule{
+.intitule {
   background-color: white;
   font-weight: bold;
   padding: 20px;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+  /*border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;*/
 }
 
-.card{
+.card {
   display: flex;
   flex-direction: column-reverse;
-  box-shadow:  5px 5px 30px #d9d9d9;
+  box-shadow: 5px 5px 30px #d9d9d9;
   background-size: cover;
-  background-position: center ;
+  background-position: center;
   border-radius: 15px;
-} 
+  overflow: hidden;
+}
 /*Footer*/
 
 footer {
@@ -108,12 +178,11 @@ footer {
   padding: 20px 50px;
 }
 
-a:link 
-{ 
- text-decoration:none; 
- color: black;
-} 
+a:link {
+  text-decoration: none;
+  color: black;
+}
 
 a:visited {
   color: black;
-  }
+}
