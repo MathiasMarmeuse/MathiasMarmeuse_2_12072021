@@ -7,90 +7,147 @@
 
 /*Body*/
 
-/*Hébergement*/
+/*Header*/
 
-/*Populaires*/
-#populaires {
-  margin: 50px;
-  max-width: 25vw;
-  background-color: #f2f2f2;
-  border-radius: 15px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+/*Main*/
+
+main {
+  padding: 0 50px;
 }
 
-.titrepop {
+main > * {
+  margin: 50px 0;
+}
+
+/*Header*/
+
+/*Hébergement+Populaires*/
+
+.sectioncontainer {
   display: flex;
-  justify-content: space-between;
+}
+
+/*Hébergement*/
+
+#hebergement {
+  flex-grow: 2;
+}
+
+.titrehebergement {
   padding: 15px;
   margin-left: 20px;
 }
 
-.fas {
-  margin-right: 20px;
-}
-
-.far {
-  color: blue;
-  padding-top: 15px;
-}
-
-.conteneurcartes {
+.row1hcard {
   display: flex;
-  flex-direction: column;
+  width: 100%;
 }
 
-.popcard {
+.row2hcard {
   display: flex;
-  margin: 20px 40px 20px 40px;
+  width: 100%;
+}
 
+.hcard {
+  margin: 20px;
   background-color: white;
   border-radius: 15px;
+  overflow: hidden;
+  padding: 5px;
+  width: 33%;
 }
 
-.popimg1 {
-  width: 150px;
+.himg {
+  width: 100%;
   height: 150px;
-  /*background-image: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");*/
-  /*background-size: cover;
-  background-position: center;*/
-  border-radius: 15px;
-  box-shadow: 5px 5px 30px #d9d9d9;
+  border-radius: 15px 15px 0px 0px;
   display: flex;
   flex-direction: row;
   position: relative;
   overflow: hidden;
 }
 
-.popimg2 {
-  width: 150px;
-  height: 150px;
-  /*background-image: url("images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");*/
-  /*background-size: cover;
-  background-position: center;*/
-  border-radius: 15px;
-  box-shadow: 5px 5px 30px #d9d9d9;
+.hinfoimg {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
-.popimg3 {
-  width: 150px;
-  height: 150px;
-  /*background-image: url("images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");*/
-  background-size: cover;
-  background-position: center;
+.lienh {
+  font-weight: bold;
+  margin-left: 20px;
+  padding: 15px;
+}
+
+/*Populaires*/
+
+.cardsection {
+  background-color: #f2f2f2;
   border-radius: 15px;
-  box-shadow: 5px 5px 30px #d9d9d9;
+  padding: 40px 20px;
+  margin: 50px 50px 0 0;
+}
+
+.popcardcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.titrepop {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.fa-chart-line {
+  margin-right: 20px;
+}
+
+.fa-star {
+  color: #0065fc;
+  padding-top: 15px;
+}
+
+.grey-star {
+  color: rgb(207, 207, 207);
 }
 
 .infoimg {
-  margin-left: 20px;
-  padding-top: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.starcontainer {
+  display: flex;
+  margin-top: auto;
+}
+
+.popcard {
+  display: flex;
+  padding: 5px;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.popimg {
+  width: 175px;
+  height: 175px;
+
+  border-radius: 15px 0px 0px 15px;
+
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  overflow: hidden;
 }
 
 /*Activités*/
 
 #activites {
-  margin: 50px;
 }
 
 #conteneuractivites {
@@ -153,17 +210,13 @@
   font-weight: bold;
   padding: 20px;
   z-index: 2;
-
-  /*border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;*/
 }
 
 .card {
   display: flex;
   flex-direction: column-reverse;
   box-shadow: 5px 5px 30px #d9d9d9;
-  /*background-size: cover;
-  background-position: center;*/
+
   border-radius: 15px;
   overflow: hidden;
   position: relative;
