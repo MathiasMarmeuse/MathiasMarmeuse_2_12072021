@@ -279,6 +279,10 @@ main > * {
   flex-direction: column;
 }
 
+.hlink {
+  display: contents;
+}
+
 .lienh {
   font-weight: bold;
   margin-left: 20px;
@@ -357,6 +361,14 @@ main > * {
   overflow: hidden;
 }
 
+.hlink:visited {
+  color: black;
+}
+
+.hlink {
+  text-decoration: none;
+}
+
 /*Activités*/
 
 #activites {
@@ -432,6 +444,12 @@ main > * {
   border-radius: 15px;
   overflow: hidden;
   position: relative;
+}
+
+.alink {
+  text-decoration: none;
+  display: contents;
+  color: black;
 }
 
 /*Footer*/
