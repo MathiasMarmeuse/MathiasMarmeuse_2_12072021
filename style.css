@@ -179,6 +179,15 @@ main > * {
   margin-right: 30px;
 }
 
+.filtreswrapper {
+  display: flex;
+  align-items: center;
+}
+
+.filtreswrapper > * {
+  margin-right: 30px;
+}
+
 .filtrelabel {
   display: flex;
   align-items: center;
@@ -691,6 +700,10 @@ a {
     flex-direction: column;
   }
 
+  .info {
+    margin-top: 20px;
+  }
+
   .infoicone {
     padding: 10px;
     border: 1px solid #f2f2f2;
@@ -706,5 +719,49 @@ a {
 
   .nomfiltre {
     font-size: medium;
+  }
+
+  .filtres {
+    display: inline;
+  }
+
+  .filtres > * {
+    max-width: 50%;
+  }
+
+  .filtreswrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+
+  .filtreswrapper > * {
+    margin: unset;
+  }
+
+  .f {
+    font-size: large;
+  }
+
+  .iconefiltres {
+    width: 15px;
+    height: 15px;
+    padding: 14px;
+  }
+
+  .filtrelabel {
+    margin-bottom: 15px;
+  }
+
+  .economique {
+    margin-right: 15px;
+  }
+
+  .romantique {
+    max-width: 150px;
+  }
+
+  .animaux {
+    min-width: 200px;
   }
 }
