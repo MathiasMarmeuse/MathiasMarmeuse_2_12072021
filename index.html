@@ -19,7 +19,7 @@
   </head>
 
   <body>
-    <header>
+    <header class="principal">
       <div class="logo">
         <img class="logoimg" src="images/logo/Reservia.svg" alt="" />
       </div>
@@ -35,8 +35,27 @@
           <a class="navlink link3" href="">S'inscrire</a>
         </div>
       </nav>
+      
     </header>
 
+    <!--<header class="bis">
+      <div class="logo">
+        <img class="logoimg" src="images/logo/Reservia.svg" alt="" />
+      </div>
+      <div class="linkcontainer linkcontainer3">
+        <a class="navlink link3" href="">S'inscrire</a>
+      </div>
+    </header>
+    <nav class="navbis">
+      <div class="linkcontainer linkcontainer1">
+        <a class="navlink link1" href="#hebergement">Hébergement</a>
+      </div>
+      <div class="linkcontainer linkcontainer2">
+        <a class="navlink link2" href="#activites">Activités</a>
+      </div>
+      
+    </nav>
+  -->
     <main>
       <section id="action">
         <h1 class="h1action">
@@ -61,25 +80,25 @@
 
         <div class="filtres">
           <p class="txtfiltres">Filtres</p>
-          <div class="filtrelabel">
+          <div class="filtrelabel zoom">
             <div class="iconefiltres">
               <i class="fas fa-money-bill-wave f"></i>
             </div>
             <p class="nomfiltre">Economique</p>
           </div>
-          <div class="filtrelabel">
+          <div class="filtrelabel zoom">
             <div class="iconefiltres">
               <i class="fas fa-child f"></i>
             </div>
             <p class="nomfiltre">Familial</p>
           </div>
-          <div class="filtrelabel">
+          <div class="filtrelabel zoom">
             <div class="iconefiltres">
               <i class="fas fa-heart f"></i>
             </div>
             <p class="nomfiltre">Romantique</p>
           </div>
-          <div class="filtrelabel">
+          <div class="filtrelabel zoom">
             <div class="iconefiltres">
               <i class="fas fa-dog f"></i>
             </div>
@@ -112,8 +131,8 @@
                       />
                     </div>
                     <div class="hinfoimg">
-                      <h3>Auberge de la Cannebière</h3>
-                      <p>Nuit à partir de 25&euro;</p>
+                      <h3 class="titrehcard">Auberge de la Cannebière</h3>
+                      <p class="descriptionhcard">Nuit à partir de 25&euro;</p>
                       <div class="hstarcontainer">
                         <i class="fas fa-star hstar"></i
                         ><i class="fas fa-star hstar"></i
@@ -133,8 +152,8 @@
                     />
                   </div>
                   <div class="hinfoimg">
-                    <h3>Auberge de la Cannebière</h3>
-                    <p>Nuit à partir de 25&euro;</p>
+                    <h3 class="titrehcard">Auberge de la Cannebière</h3>
+                    <p class="descriptionhcard">Nuit à partir de 25&euro;</p>
                     <div class="hstarcontainer">
                       <i class="fas fa-star hstar"></i
                       ><i class="fas fa-star hstar"></i
@@ -153,8 +172,8 @@
                     />
                   </div>
                   <div class="hinfoimg">
-                    <h3>Auberge de la Cannebière</h3>
-                    <p>Nuit à partir de 25&euro;</p>
+                    <h3 class="titrehcard">Auberge de la Cannebière</h3>
+                    <p class="descriptionhcard">Nuit à partir de 25&euro;</p>
                     <div class="hstarcontainer">
                       <i class="fas fa-star hstar"></i
                       ><i class="fas fa-star hstar"></i
@@ -175,8 +194,8 @@
                     />
                   </div>
                   <div class="hinfoimg">
-                    <h3>Auberge de la Cannebière</h3>
-                    <p>Nuit à partir de 25&euro;</p>
+                    <h3 class="titrehcard">Auberge de la Cannebière</h3>
+                    <p class="descriptionhcard">Nuit à partir de 25&euro;</p>
                     <div class="hstarcontainer">
                       <i class="fas fa-star hstar"></i
                       ><i class="fas fa-star hstar"></i
@@ -195,8 +214,8 @@
                     />
                   </div>
                   <div class="hinfoimg">
-                    <h3>Auberge de la Cannebière</h3>
-                    <p>Nuit à partir de 25&euro;</p>
+                    <h3 class="titrehcard">Auberge de la Cannebière</h3>
+                    <p class="descriptionhcard">Nuit à partir de 25&euro;</p>
                     <div class="hstarcontainer">
                       <i class="fas fa-star hstar"></i
                       ><i class="fas fa-star hstar"></i
@@ -213,8 +232,8 @@
                       <img class="cardimg" src="images/hebergements/4_small/hamina.jpg" />
                     </div>
                     <div class="hinfoimg">
-                      <h3>Auberge de la Cannebière</h3>
-                      <p>Nuit à partir de 25&euro;</p>
+                      <h3 class="titrehcard">Auberge de la Cannebière</h3>
+                      <p class="descriptionhcard">Nuit à partir de 25&euro;</p>
                       <div class="hstarcontainer">
                         <i class="fas fa-star hstar"></i
                         ><i class="fas fa-star hstar"></i
@@ -237,16 +256,16 @@
             <h2>Les plus populaires</h2>
             <i class="fas fa-chart-line"></i>
           </div>
-          <!--<div class="popcardcontainer">-->
+          
           <div class="popcard">
             <div class="popimg">
               <img
-                class="cardimg"
+                class="cardimg popcardimg"
                 src="images/hebergements/4_small/popmatin.jpg"
               />
             </div>
             <div class="infoimg">
-              <h3>Hôtel Le soleil du matin</h3>
+              <h3 class="titrecardpop">Hôtel Le soleil du matin</h3>
 
               <p>Nuit à partir de 128&euro;</p>
               <div class="starcontainer">
@@ -259,12 +278,12 @@
           <div class="popcard">
             <div class="popimg">
               <img
-                class="cardimg"
+                class="cardimg popcardimg"
                 src="images/hebergements/4_small/popeau.jpg"
               />
             </div>
             <div class="infoimg">
-              <h3>Au coeur de l'eau <br />Chambre d'hôtes</h3>
+              <h3 class="titrecardpop">Au coeur de l'eau <br />Chambre d'hôtes</h3>
 
               <p>Nuit à partir de 71&euro;</p>
               <div class="starcontainer">
@@ -277,12 +296,12 @@
           <div class="popcard">
             <div class="popimg">
               <img
-                class="cardimg"
+                class="cardimg popcardimg"
                 src="images/hebergements/4_small/popbleu.jpg"
               />
             </div>
             <div class="infoimg">
-              <h3>Hôtel Tout bleu et Blanc</h3>
+              <h3 class="titrecardpop">Hôtel Tout bleu et Blanc</h3>
 
               <p>Nuit à partir de 68&euro;</p>
               <div class="starcontainer">
@@ -301,20 +320,20 @@
         <div id="conteneuractivites">
           <a href="" class="alink"><div class="tg1 card">
             <div class="intitule">
-              <h3>Port</h3>
+              <h3>Vieux Port</h3>
             </div>
             <img
               class="cardimg"
               src="images/activites/3_medium/activitesvieuxport.jpg"
             />
           </div></a>
-          <a href="" class="alink"><div class="tg2 card">
+          <a href="" class="alink"><div class="g card">
             <div class="intitule">
-              <h3>Parc National des Calanques</h3>
+              <h3>Fort de Pomègues</h3>
             </div>
             <img
               class="cardimg"
-              src="images/activites/3_medium/activitescalanques.jpg"
+              src="images/activites/4_small/activitespomegues.jpg"
             />
           </div></a>
           <a href="" class="alink"><div class="p card">
@@ -326,13 +345,14 @@
               src="images/activites/4_small/activitesfrioul.jpg"
             />
           </div></a>
-          <a href="" class="alink"><div class="g card">
+          
+          <a href="" class="alink"><div class="tg2 card">
             <div class="intitule">
-              <h3>Fort de Pomègues</h3>
+              <h3>Parc National des Calanques</h3>
             </div>
             <img
               class="cardimg"
-              src="images/activites/4_small/activitespomegues.jpg"
+              src="images/activites/3_medium/activitescalanques.jpg"
             />
           </div></a>
           <a href="" class="alink"> <div class="m1 card">
@@ -360,21 +380,21 @@
     <footer>
       <div id="conteneurfooter">
         <div class="infos">
-          <h3>À propos</h3>
-          <br />
+          <h3 class="titrefooter">À propos</h3>
+          
           <a class="footerlink" href="">Fonctionnement du site</a>
           <a class="footerlink" href="">Conditions générales de vente</a>
           <a class="footerlink" href="">Données et confidentialité</a>
         </div>
         <div class="infos">
-          <h3>Nos hébergements</h3>
-          <br />
+          <h3 class="titrefooter">Nos hébergements</h3>
+          
           <a class="footerlink" href="">Charte qualité</a>
           <a class="footerlink" href="">Soumettre votre hôtel</a>
         </div>
         <div class="infos">
-          <h3>Assistance</h3>
-          <br />
+          <h3 class="titrefooter">Assistance</h3>
+          
           <a class="footerlink" href="">Centre d'aide</a>
           <a class="footerlink" href="">Nous contacter</a>
         </div>

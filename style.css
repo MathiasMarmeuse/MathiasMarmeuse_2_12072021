@@ -10,6 +10,8 @@
 
 header {
   display: flex;
+  align-items: center;
+
   justify-content: space-between;
   margin: 50px 50px;
 }
@@ -32,7 +34,6 @@ nav {
   width: 25%;
   font-size: x-large;
   font-weight: 500;
-  font-size: x-large;
 }
 
 .linkcontainer {
@@ -47,12 +48,18 @@ nav {
   text-decoration: none;
 }
 
-/*.navlink:visited {
-  color: black;
-}*/
+/*.bis {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-/*.linkcontainer:hover {
-  border-top: #0065fc solid;
+.navbis {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  background-color: violet;
 }*/
 
 .linkcontainer1 {
@@ -70,6 +77,7 @@ nav {
 .link3 {
   font-weight: bold;
   color: #0065fc;
+  font-size: x-large;
 }
 
 /*Main*/
@@ -178,6 +186,10 @@ main > * {
   border-left: none;
   border-radius: 80px;
   padding-right: 10px;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
 }
 
 .filtrelabel > * {
@@ -312,11 +324,14 @@ main > * {
 .titrepop {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 30px;
 }
 
 .fa-chart-line {
   margin-right: 20px;
+  font-size: larger;
+  font-weight: bolder;
 }
 
 .fa-star {
@@ -479,4 +494,217 @@ footer {
 
 .footerlink:visited {
   color: black;
+}
+
+a {
+  margin-top: 15px;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 768px) {
+  .logo {
+    max-width: 50px;
+  }
+
+  /*Main*/
+
+  main {
+    padding: 0 0px;
+  }
+
+  main > * {
+    margin: 25px 0;
+  }
+
+  .link3 {
+    font-weight: bold;
+    color: #0065fc;
+    font-size: medium;
+  }
+
+  .link1 {
+  }
+
+  /*Footer*/
+
+  #conteneurfooter {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .infos {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+
+  .titrefooter {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /*Activités*/
+
+  #activites {
+    display: flex;
+    flex-direction: column;
+    margin: 0 25px 0 25px;
+  }
+
+  #conteneuractivites {
+    display: inline-flex;
+    flex-direction: column;
+    height: auto;
+    font-size: small;
+  }
+
+  .tg1 {
+    min-height: 180px;
+  }
+
+  .tg2 {
+    min-height: 180px;
+  }
+  .p {
+    min-height: 180px;
+  }
+  .m1 {
+    min-height: 180px;
+  }
+  .m2 {
+    min-height: 180px;
+  }
+  .g {
+    min-height: 180px;
+  }
+
+  /*Hébergement+Populaires*/
+
+  .sectioncontainer {
+    flex-direction: column-reverse;
+  }
+
+  /*Hébergement*/
+
+  #hebergement {
+    display: flex;
+    margin: 0 25px 0 25px;
+    flex-direction: column;
+  }
+
+  .cardsection {
+    padding: 0px;
+  }
+
+  #hebergement {
+    background-color: unset;
+  }
+
+  #conteneurhebergement {
+  }
+
+  .titrehebergement {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+
+  .row1hcard {
+    flex-direction: column;
+  }
+  .row2hcard {
+    flex-direction: column;
+  }
+  .hcard {
+    margin: 0px;
+    width: unset;
+    margin-bottom: 15px;
+  }
+  .himg {
+    width: 100%;
+    height: 100px;
+    border-radius: 15px 15px 0px 0px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .titrehcard {
+    font-size: medium;
+    font-weight: 700;
+  }
+
+  .descriptionhcard {
+    font-size: small;
+    font-weight: 500;
+    margin-top: 5px;
+  }
+
+  .hstarcontainer {
+    margin-top: -7px;
+  }
+
+  .hstar {
+    font-size: small;
+  }
+
+  /*Populaires*/
+
+  #populaires {
+    border-radius: unset;
+    padding: 25px 25px 25px 25px;
+  }
+
+  .popcard {
+    margin-bottom: 15px;
+    height: auto;
+  }
+
+  .popimg {
+    height: auto;
+    max-width: 120px;
+    min-height: 120px;
+  }
+
+  .infoimg {
+    padding: 5px 20px 0 20px;
+  }
+
+  .popcardimg {
+  }
+
+  .titrecardpop {
+    font-size: medium;
+    font-weight: 700;
+  }
+
+  .starcontainer {
+    padding-bottom: 10px;
+  }
+
+  .fa-star {
+    font-size: small;
+  }
+
+  /*Actions*/
+
+  .filtres {
+    flex-direction: column;
+  }
+
+  .infoicone {
+    padding: 10px;
+    border: 1px solid #f2f2f2;
+  }
+
+  .fa-info {
+    font-size: x-small;
+  }
+
+  .txtinfo {
+    font-size: medium;
+  }
+
+  .nomfiltre {
+    font-size: medium;
+  }
 }
