@@ -16,6 +16,10 @@ header {
   margin: 50px 50px;
 }
 
+.headnavwrapper {
+  display: none;
+}
+
 .logoimg {
   width: 190px;
 }
@@ -165,6 +169,10 @@ main > * {
   padding: 22px;
   color: white;
   font-weight: bold;
+}
+
+.alternativebutton {
+  display: none;
 }
 
 .filtres {
@@ -511,7 +519,7 @@ a {
 
 /*Media Queries*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .logo {
     max-width: 50px;
   }
@@ -702,6 +710,7 @@ a {
 
   .info {
     margin-top: 20px;
+    margin-left: 25px;
   }
 
   .infoicone {
@@ -727,6 +736,7 @@ a {
 
   .filtres > * {
     max-width: 50%;
+    margin-left: 25px;
   }
 
   .filtreswrapper {
@@ -763,5 +773,113 @@ a {
 
   .animaux {
     min-width: 200px;
+  }
+
+  .recherche {
+    margin-left: 25px;
+  }
+
+  .ph1 {
+    margin-left: 25px;
+    font-size: medium;
+  }
+
+  .h1action {
+    margin-left: 25px;
+    font-size: x-large;
+    padding-bottom: 0px;
+  }
+
+  .fa-map-marker-alt {
+    font-size: large;
+  }
+
+  .iconerecherche {
+    padding: 15px;
+  }
+
+  .champrecherche {
+    padding: 17px;
+    width: 230px;
+  }
+
+  .recherchebouton {
+    padding: 16px;
+    display: none;
+  }
+
+  .alternativebutton {
+    border-top: solid #0065fc 2px;
+    border-bottom: solid #0065fc 2px;
+    border-right: 0;
+    border-left: 0;
+    background-color: #0065fc;
+    min-height: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    display: block;
+  }
+
+  .placeholder {
+    font-size: medium;
+    min-width: fit-content;
+  }
+
+  /*Header+Nav*/
+
+  .principal {
+    display: none;
+  }
+
+  .bis {
+    display: flex;
+    align-items: center;
+    margin: 25px 25px;
+  }
+
+  .headnavwrapper {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 375px;
+  }
+  .navbis {
+    display: flex;
+    min-width: 375px;
+    text-align: left;
+  }
+
+  .link3bis {
+    margin-top: unset;
+  }
+
+  .link1bis {
+    font-size: large;
+  }
+
+  .link2bis {
+    font-size: large;
+  }
+
+  .linkcontainer1bis {
+    border-bottom: #0065fc solid;
+    border-top: unset;
+    margin-left: unset;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+  }
+
+  .linkcontainer2bis {
+    border-bottom: #dddddd solid;
+    margin-left: unset;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
   }
 }
