@@ -509,6 +509,543 @@ a {
 
 /*Media Queries*/
 
+@media screen and (max-width: 768px) {
+  /*Main*/
+
+  main {
+    padding: 0px 50px;
+  }
+
+  main > * {
+    margin: 25px 0;
+  }
+
+  /*Header*/
+
+  /*Action*/
+
+  .filtres {
+    font-size: medium;
+  }
+
+  .nomfiltre {
+    font-size: small;
+  }
+
+  .f {
+    font-size: small;
+  }
+
+  .iconefiltres {
+    padding: 8px;
+  }
+
+  .filtrelabel {
+    margin-right: 5px;
+  }
+
+  .animaux {
+    min-width: 180px;
+    padding: unset;
+  }
+
+  .txtfiltres {
+    margin-right: 5px;
+  }
+
+  .champrecherche {
+    min-width: 220px;
+  }
+
+  #action {
+    margin-bottom: 50px;
+  }
+
+  /*Hébergement+Populaires*/
+
+  .sectioncontainer {
+    flex-direction: column;
+  }
+
+  .cardsection {
+    width: auto;
+  }
+
+  /*Hébergement*/
+
+  #hebergement {
+    margin: unset;
+    margin-bottom: 50px;
+  }
+
+  .row1hcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .row2hcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hcard {
+    width: 70%;
+  }
+
+  .lienh {
+    margin-left: 82px;
+  }
+
+  .titrehebergement {
+    margin-left: 140px;
+  }
+
+  /*Populaires*/
+
+  #populaires {
+    margin-bottom: 50px;
+  }
+
+  .popcard {
+    margin-right: auto;
+    margin-left: auto;
+    width: 421px;
+  }
+
+  .titrepop {
+    margin-right: auto;
+    margin-left: auto;
+    width: 421px;
+  }
+  /*Activités*/
+
+  #activites {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #conteneuractivites {
+    display: inline-flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .tg1 {
+    min-height: 250px;
+    width: 500px;
+  }
+
+  .tg2 {
+    min-height: 250px;
+    width: 500px;
+  }
+  .p {
+    min-height: 250px;
+    width: 500px;
+  }
+  .m1 {
+    min-height: 250px;
+    width: 500px;
+  }
+  .m2 {
+    min-height: 250px;
+    width: 500px;
+  }
+  .g {
+    min-height: 250px;
+    width: 500px;
+  }
+
+  /*Footer*/
+
+  .infos {
+  }
+
+  #conteneurfooter > * {
+    margin-left: 60px;
+  }
+}
+@media screen and (max-width: 375px) {
+  /*Main*/
+
+  main {
+    padding: 0 25px;
+  }
+
+  main > * {
+    margin: 25px 0;
+  }
+
+  /*Header*/
+
+  .principal {
+    display: none;
+  }
+
+  .bis {
+    display: flex;
+    align-items: center;
+    margin: 25px 25px;
+  }
+
+  .headnavwrapper {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 375px;
+  }
+  .navbis {
+    display: flex;
+    min-width: 320px;
+    text-align: left;
+  }
+
+  .link3bis {
+    margin-top: unset;
+  }
+
+  .link1bis {
+    font-size: medium;
+    font-weight: 600;
+  }
+
+  .link2bis {
+    font-size: medium;
+    font-weight: 600;
+  }
+
+  .linkcontainer1bis {
+    border-bottom: #0065fc solid;
+    border-top: unset;
+    margin-left: unset;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    height: unset;
+  }
+
+  .linkcontainer2bis {
+    border-bottom: #dddddd solid;
+    margin-left: unset;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+  }
+
+  .navbis {
+    min-width: 375px;
+  }
+
+  .h1action {
+    font-size: 18px;
+    padding-right: 70px;
+  }
+
+  .txtinfo {
+    font-size: medium;
+    font-weight: 400;
+  }
+
+  .popimg {
+    max-width: 120px;
+    min-height: 120px;
+  }
+
+  .popcardimg {
+    width: 120px;
+    height: 120px;
+    padding: unset;
+  }
+
+  .titrecardpop {
+    font-size: medium;
+  }
+
+  .descriptionpcard {
+    font-size: small;
+  }
+
+  /*Action*/
+
+  .champrecherche {
+    width: unset;
+  }
+
+  .recherchebouton {
+    padding: 12px;
+    display: none;
+  }
+
+  .alternativebutton {
+    border-top: solid #0065fc 2px;
+    border-bottom: solid #0065fc 2px;
+    border-right: 0;
+    border-left: 0;
+    background-color: #0065fc;
+    min-height: 100%;
+
+    padding: 10px 12px 10px 12px;
+    color: white;
+    font-weight: bold;
+    display: block;
+    border-radius: 15px;
+    position: relative;
+    left: -10px;
+  }
+
+  ::placeholder {
+    font-size: medium;
+    font-weight: 800;
+  }
+
+  .filtres {
+    display: inline;
+    flex-direction: column;
+  }
+
+  .filtres > * {
+    max-width: 50%;
+    margin-left: unset;
+  }
+
+  .filtreswrapper {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .filtreswrapper > * {
+    margin: unset;
+  }
+
+  .txtfiltres {
+    margin: unset;
+    font-weight: 800;
+  }
+
+  .f {
+    font-size: large;
+  }
+
+  .iconefiltres {
+    width: 15px;
+    height: 15px;
+    padding: 14px;
+  }
+
+  .nomfiltre {
+    font-size: small;
+    font-weight: 800;
+  }
+
+  .romantique {
+    padding-right: unset;
+    max-width: 140px;
+    margin-bottom: 20px;
+  }
+
+  .economique {
+    margin-right: 20px;
+  }
+
+  .info {
+    margin-top: 20px;
+  }
+
+  .nomfiltre {
+    font-size: small;
+    font-weight: 800;
+  }
+
+  /*Hébergement+Populaires*/
+
+  .sectioncontainer {
+    flex-direction: column-reverse;
+  }
+
+  /*Hébergement*/
+
+  #hebergement {
+    display: flex;
+    margin: 0 25px 0 25px;
+    flex-direction: column;
+  }
+
+  .cardsection {
+    padding: 0px;
+  }
+
+  #hebergement {
+    background-color: unset;
+  }
+
+  .titrehebergement {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+
+  .row1hcard {
+    flex-direction: column;
+  }
+  .row2hcard {
+    flex-direction: column;
+  }
+  .hcard {
+    margin: 0px;
+    width: 270px;
+    margin-bottom: 15px;
+  }
+  .himg {
+    width: 100%;
+    height: 100px;
+    border-radius: 15px 15px 0px 0px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .titrehcard {
+    font-size: medium;
+    font-weight: 700;
+  }
+
+  .descriptionhcard {
+    font-size: small;
+    font-weight: 500;
+    margin-top: 5px;
+  }
+
+  .hstarcontainer {
+    margin-top: -7px;
+  }
+
+  .hstar {
+    font-size: small;
+  }
+
+  .lienh {
+    margin-left: unset;
+  }
+
+  /*Populaires*/
+
+  #populaires {
+    border-radius: unset;
+    padding: 25px 25px 25px 25px;
+  }
+  .titrepop {
+    margin-left: unset;
+    width: unset;
+  }
+  .popcard {
+    margin-bottom: 15px;
+    height: auto;
+  }
+
+  .popcardimg {
+    padding-right: 10px;
+  }
+
+  .popimg {
+    height: auto;
+    max-width: 101px;
+    max-height: 111px;
+  }
+
+  .popcard {
+    width: unset;
+  }
+
+  .infoimg {
+    padding: 5px 20px 0 10px;
+  }
+
+  .titrecardpop {
+    font-size: small;
+    font-weight: 800;
+  }
+
+  .descriptionpcard {
+    font-size: x-small;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-weight: 500;
+  }
+
+  .fa-star {
+    font-size: x-small;
+  }
+
+  .starcontainer {
+    margin-bottom: 10px;
+  }
+
+  /*Activités*/
+
+  #activites {
+    display: flex;
+    flex-direction: column;
+    margin: 0 25px 0 25px;
+  }
+
+  #conteneuractivites {
+    display: inline-flex;
+    flex-direction: column;
+    height: auto;
+    font-size: small;
+  }
+
+  .tg1 {
+    min-height: 180px;
+  }
+
+  .tg2 {
+    min-height: 180px;
+  }
+  .p {
+    min-height: 180px;
+  }
+  .m1 {
+    min-height: 180px;
+  }
+  .m2 {
+    min-height: 180px;
+  }
+  .g {
+    min-height: 180px;
+  }
+
+  .card {
+    width: 270px;
+  }
+
+  /*Footer*/
+
+  #conteneurfooter {
+    flex-direction: column;
+    margin-top: 50px;
+    padding-left: unset;
+    margin-left: unset;
+  }
+
+  .infos {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+
+  .titrefooter {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .logo {
     max-width: 50px;
@@ -530,9 +1067,6 @@ a {
     font-size: medium;
   }
 
-  .link1 {
-  }
-
   h2 {
     font-size: medium;
     font-weight: 800;
@@ -543,7 +1077,8 @@ a {
   #conteneurfooter {
     flex-direction: column;
     margin-top: 50px;
-    padding-left: 30px;
+    padding-left: unset;
+    margin-left: unset;
   }
 
   .infos {
@@ -592,6 +1127,10 @@ a {
     min-height: 180px;
   }
 
+  .card {
+    width: 270px;
+  }
+
   /*Hébergement+Populaires*/
 
   .sectioncontainer {
@@ -627,7 +1166,7 @@ a {
   }
   .hcard {
     margin: 0px;
-    width: unset;
+    width: 270px;
     margin-bottom: 15px;
   }
   .himg {
@@ -667,7 +1206,10 @@ a {
     border-radius: unset;
     padding: 25px 25px 25px 25px;
   }
-
+  .titrepop {
+    margin-left: unset;
+    width: unset;
+  }
   .popcard {
     margin-bottom: 15px;
     height: auto;
@@ -681,6 +1223,10 @@ a {
     height: auto;
     max-width: 101px;
     max-height: 111px;
+  }
+
+  .popcard {
+    width: unset;
   }
 
   .infoimg {
@@ -887,6 +1433,7 @@ a {
     display: flex;
     justify-content: center;
     padding-bottom: 15px;
+    height: unset;
   }
 
   .linkcontainer2bis {
@@ -896,212 +1443,5 @@ a {
     display: flex;
     justify-content: center;
     padding-bottom: 15px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  /*Main*/
-
-  main {
-    padding: 0 0px;
-  }
-
-  main > * {
-    margin: 25px 0;
-  }
-
-  /*Header*/
-
-  .navbis {
-    min-width: 375px;
-  }
-
-  .h1action {
-    font-size: 18px;
-    padding-right: 70px;
-  }
-
-  .txtinfo {
-    font-size: medium;
-    font-weight: 400;
-  }
-
-  .popimg {
-    max-width: 120px;
-    min-height: 120px;
-  }
-
-  .popcardimg {
-    width: 120px;
-    height: 120px;
-    padding: unset;
-  }
-
-  .titrecardpop {
-    font-size: medium;
-  }
-
-  .descriptionpcard {
-    font-size: small;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  /*Main*/
-
-  main {
-    padding: 0px 50px;
-  }
-
-  main > * {
-    margin: 25px 0;
-  }
-
-  /*Header*/
-
-  /*Action*/
-
-  .filtres {
-    font-size: medium;
-  }
-
-  .nomfiltre {
-    font-size: small;
-  }
-
-  .f {
-    font-size: small;
-  }
-
-  .iconefiltres {
-    padding: 8px;
-  }
-
-  .filtrelabel {
-    margin-right: 5px;
-  }
-
-  .animaux {
-    min-width: 180px;
-    padding: unset;
-  }
-
-  .txtfiltres {
-    margin-right: 5px;
-  }
-
-  .champrecherche {
-    min-width: 220px;
-  }
-
-  #action {
-    margin-bottom: 50px;
-  }
-
-  /*Hébergement+Populaires*/
-
-  .sectioncontainer {
-    flex-direction: column;
-  }
-
-  .cardsection {
-    width: auto;
-  }
-
-  /*Hébergement*/
-
-  #hebergement {
-    margin: unset;
-    margin-bottom: 50px;
-  }
-
-  .row1hcard {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .row2hcard {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .hcard {
-    width: 70%;
-  }
-
-  .lienh {
-    margin-left: 82px;
-  }
-
-  .titrehebergement {
-    margin-left: 140px;
-  }
-
-  /*Populaires*/
-
-  #populaires {
-    margin-bottom: 50px;
-  }
-
-  .popcard {
-    margin-right: auto;
-    margin-left: auto;
-    width: 421px;
-  }
-
-  .titrepop {
-    margin-right: auto;
-    margin-left: auto;
-    width: 421px;
-  }
-  /*Activités*/
-
-  #activites {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #conteneuractivites {
-    display: inline-flex;
-    flex-direction: column;
-    height: auto;
-  }
-
-  .tg1 {
-    min-height: 250px;
-    width: 500px;
-  }
-
-  .tg2 {
-    min-height: 250px;
-    width: 500px;
-  }
-  .p {
-    min-height: 250px;
-    width: 500px;
-  }
-  .m1 {
-    min-height: 250px;
-    width: 500px;
-  }
-  .m2 {
-    min-height: 250px;
-    width: 500px;
-  }
-  .g {
-    min-height: 250px;
-    width: 500px;
-  }
-
-  /*Footer*/
-
-  .infos {
-  }
-
-  #conteneurfooter > * {
-    margin-left: 60px;
   }
 }
