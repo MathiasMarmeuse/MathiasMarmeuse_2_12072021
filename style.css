@@ -426,7 +426,7 @@ main > * {
 .tg1 {
   grid-area: tg1;
 
-  max-width: 1fr;
+  max-width: 423px;
 }
 
 .tg2 {
@@ -703,9 +703,7 @@ a {
   }
 }
 
-
-
-@media screen and (max-width:540px) {
+@media screen and (max-width: 540px) {
   main {
     margin: 0px;
   }
@@ -785,13 +783,13 @@ a {
 
   .alternativebutton {
     border-top: solid #0065fc 2px;
-    border-bottom: solid #0065fc 2px;
+
     border-right: 0;
     border-left: 0;
     background-color: #0065fc;
     height: 50px;
     width: 50px;
-    padding: 10px 12px 10px 12px;
+
     color: white;
     border-radius: 15px;
     position: relative;
@@ -915,13 +913,11 @@ a {
 }
 
 @media screen and (max-width: 414px) {
-  
-
-  .titrehebergement{
+  .titrehebergement {
     width: 380px;
   }
 
-  .navbis{
+  .navbis {
     width: 414px;
   }
   .tg1 {
@@ -1019,16 +1015,12 @@ a {
     height: 125px;
   }
 
-  .titrehebergement{
-    width: 330px;}
+  .titrehebergement {
+    width: 330px;
+  }
 }
 
 @media screen and (max-width: 360px) {
-  body {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
   .logoimg {
     width: 100px;
   }
@@ -1179,6 +1171,7 @@ a {
     padding-right: unset;
   }
 
-  .titrehebergement{
+  .titrehebergement {
     width: 290px;
   }
+}
