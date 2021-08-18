@@ -595,21 +595,29 @@ a {
 
   #populaires {
     margin: unset;
+    border-radius: unset;
   }
 
   .titrepop {
     width: 80%;
-    margin-left: 70px;
+    margin-left: 0px;
+  }
+
+  .h2pop {
+    font-weight: 800;
   }
 
   .popcard {
-    width: 70%;
+    width: 80%;
   }
 
   .fa-chart-line {
-    margin-left: 165px;
+    margin-left: 220px;
   }
 
+  #hebergement {
+    background-color: unset;
+  }
   .row1hcard {
     display: flex;
     flex-direction: column;
@@ -623,15 +631,18 @@ a {
   }
 
   .hcard {
-    width: 70%;
+    width: 80%;
   }
 
   .h2hebergement {
-    margin-left: 120px;
+    margin-left: 40px;
+    font-weight: 800;
   }
 
   .lienh {
-    margin-left: 80px;
+    margin-left: 60px;
+    font-weight: 800;
+    font-size: large;
   }
 
   #activites {
@@ -649,37 +660,38 @@ a {
   }
 
   .h2activites {
-    margin-left: 200px;
+    margin-left: 100px;
+    font-weight: 800;
   }
 
   .tg1 {
     min-height: 254px;
-    width: 70%;
+    width: 480px;
   }
 
   .tg2 {
     min-height: 254px;
-    width: 70%;
+    width: 480px;
   }
 
   .p {
     min-height: 254px;
-    width: 70%;
+    width: 480px;
   }
 
   .m1 {
     min-height: 254px;
-    width: 70%;
+    width: 480px;
   }
 
   .m2 {
     min-height: 254px;
-    width: 70%;
+    width: 480px;
   }
 
   .g {
     min-height: 254px;
-    width: 70%;
+    width: 480px;
   }
 
   .filtres > * {
@@ -691,7 +703,9 @@ a {
   }
 }
 
-@media screen and (max-width: 425px) {
+
+
+@media screen and (max-width:540px) {
   main {
     margin: 0px;
   }
@@ -818,7 +832,7 @@ a {
     font-weight: 800;
   }
   .titrehebergement {
-    width: 425px;
+    width: 308px;
   }
 
   .hcard {
@@ -900,7 +914,52 @@ a {
   }
 }
 
+@media screen and (max-width: 414px) {
+  
+
+  .titrehebergement{
+    width: 380px;
+  }
+
+  .navbis{
+    width: 414px;
+  }
+  .tg1 {
+    min-height: 254px;
+    width: 382px;
+  }
+
+  .tg2 {
+    min-height: 254px;
+    width: 382px;
+  }
+
+  .p {
+    min-height: 254px;
+    width: 382px;
+  }
+
+  .m1 {
+    min-height: 254px;
+    width: 382px;
+  }
+
+  .m2 {
+    min-height: 254px;
+    width: 382px;
+  }
+
+  .g {
+    min-height: 254px;
+    width: 382px;
+  }
+}
+
 @media screen and (max-width: 375px) {
+  body {
+    padding-left: unset;
+    padding-right: unset;
+  }
   .fa-chart-line {
     margin-left: 95px;
   }
@@ -959,4 +1018,167 @@ a {
   .himg {
     height: 125px;
   }
+
+  .titrehebergement{
+    width: 330px;}
 }
+
+@media screen and (max-width: 360px) {
+  body {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .logoimg {
+    width: 100px;
+  }
+
+  .navbis {
+    width: 320px;
+  }
+
+  .h1action {
+    font-size: large;
+    font-weight: 800;
+  }
+
+  .ph1 {
+    font-weight: 500;
+    font-size: small;
+  }
+
+  ::placeholder {
+    font-size: medium;
+    font-weight: 800;
+  }
+
+  .iconefiltres {
+    font-size: small;
+    padding: 5px;
+  }
+
+  .filtrelabel {
+    font-size: small;
+    font-weight: 800;
+  }
+
+  .familial {
+    padding-right: 5px;
+  }
+
+  .txtinfo {
+    font-size: medium;
+    font-weight: 500;
+  }
+
+  .titrecardpop {
+    font-size: small;
+    font-weight: 800;
+  }
+
+  .coeur {
+    font-size: small;
+    font-weight: 800;
+  }
+
+  .descriptionpcard {
+    font-size: small;
+  }
+
+  .infoimg {
+    padding-right: unset;
+    padding-top: 10px;
+  }
+
+  .popcardimg {
+    width: 120px;
+    height: 120px;
+  }
+
+  .starcontainer > * {
+    font-size: small;
+  }
+
+  .h2pop {
+    font-size: larger;
+  }
+
+  .h2hebergement {
+    font-size: larger;
+  }
+
+  .h2activites {
+    font-size: larger;
+  }
+
+  .himg {
+    height: 100px;
+  }
+
+  .titrehcard {
+    font-size: small;
+    font-weight: 800;
+  }
+
+  .descriptionhcard {
+    font-size: small;
+    margin-top: 5px;
+  }
+
+  .hstarcontainer > * {
+    font-size: small;
+  }
+
+  .tg1 {
+    min-height: 180px;
+    width: 298px;
+  }
+
+  .tg2 {
+    min-height: 180px;
+    width: 298px;
+  }
+
+  .p {
+    min-height: 180px;
+    width: 298px;
+  }
+
+  .m1 {
+    min-height: 180px;
+    width: 298px;
+  }
+
+  .m2 {
+    min-height: 180px;
+    width: 298px;
+  }
+
+  .g {
+    min-height: 180px;
+    width: 298px;
+  }
+
+  .txtintitule {
+    font-size: medium;
+  }
+
+  .titrefooter {
+    font-weight: 800;
+    width: 200px;
+  }
+
+  .footerlink {
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    padding-left: unset;
+    padding-right: unset;
+  }
+
+  .titrehebergement{
+    width: 290px;
+  }
