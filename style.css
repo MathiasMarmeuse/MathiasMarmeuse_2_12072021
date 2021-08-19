@@ -32,7 +32,6 @@ header {
 
 nav {
   display: flex;
-
   justify-content: flex-end;
   align-items: center;
   width: 25%;
@@ -42,7 +41,6 @@ nav {
 
 .linkcontainer {
   margin-left: 50px;
-
   height: 100%;
   display: flex;
   align-items: center;
@@ -171,7 +169,6 @@ main > * {
   align-items: center;
   font-weight: bolder;
   font-size: 18px;
-
   padding-bottom: 15px;
 }
 
@@ -425,8 +422,6 @@ main > * {
 
 .tg1 {
   grid-area: tg1;
-
-  max-width: 423px;
 }
 
 .tg2 {
@@ -857,32 +852,32 @@ a {
 
   .tg1 {
     min-height: 254px;
-    width: 393px;
+    width: 496px;
   }
 
   .tg2 {
     min-height: 254px;
-    width: 393px;
+    width: 496px;
   }
 
   .p {
     min-height: 254px;
-    width: 393px;
+    width: 496px;
   }
 
   .m1 {
     min-height: 254px;
-    width: 393px;
+    width: 496px;
   }
 
   .m2 {
     min-height: 254px;
-    width: 393px;
+    width: 496px;
   }
 
   .g {
     min-height: 254px;
-    width: 393px;
+    width: 496px;
   }
 
   .filtres > * {
@@ -909,6 +904,38 @@ a {
   .titrefooter {
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .tg1 {
+    min-height: 254px;
+    width: 392px;
+  }
+
+  .tg2 {
+    min-height: 254px;
+    width: 392px;
+  }
+
+  .p {
+    min-height: 254px;
+    width: 392px;
+  }
+
+  .m1 {
+    min-height: 254px;
+    width: 392px;
+  }
+
+  .m2 {
+    min-height: 254px;
+    width: 392px;
+  }
+
+  .g {
+    min-height: 254px;
+    width: 392px;
   }
 }
 
@@ -1123,6 +1150,60 @@ a {
 
   .tg1 {
     min-height: 180px;
+    width: 334px;
+  }
+
+  .tg2 {
+    min-height: 180px;
+    width: 334px;
+  }
+
+  .p {
+    min-height: 180px;
+    width: 334px;
+  }
+
+  .m1 {
+    min-height: 180px;
+    width: 334px;
+  }
+
+  .m2 {
+    min-height: 180px;
+    width: 334px;
+  }
+
+  .g {
+    min-height: 180px;
+    width: 334px;
+  }
+
+  .txtintitule {
+    font-size: medium;
+  }
+
+  .titrefooter {
+    font-weight: 800;
+    width: 200px;
+  }
+
+  .footerlink {
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    padding-left: unset;
+    padding-right: unset;
+  }
+
+  .titrehebergement {
+    width: 290px;
+  }
+
+  .tg1 {
+    min-height: 180px;
     width: 298px;
   }
 
@@ -1150,22 +1231,9 @@ a {
     min-height: 180px;
     width: 298px;
   }
-
-  .txtintitule {
-    font-size: medium;
-  }
-
-  .titrefooter {
-    font-weight: 800;
-    width: 200px;
-  }
-
-  .footerlink {
-    font-weight: 500;
-  }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 280px) {
   body {
     padding-left: unset;
     padding-right: unset;
@@ -1173,5 +1241,61 @@ a {
 
   .titrehebergement {
     width: 290px;
+  }
+
+  .tg1 {
+    min-height: 180px;
+    width: 262px;
+  }
+
+  .tg2 {
+    min-height: 180px;
+    width: 262px;
+  }
+
+  .p {
+    min-height: 180px;
+    width: 262px;
+  }
+
+  .m1 {
+    min-height: 180px;
+    width: 262px;
+  }
+
+  .m2 {
+    min-height: 180px;
+    width: 262px;
+  }
+
+  .g {
+    min-height: 180px;
+    width: 262px;
+  }
+
+  .fa-chart-line {
+    margin-left: 50px;
+  }
+
+  .filtreswrapper {
+    margin-bottom: 0;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .familial {
+    margin-top: 10px;
+  }
+
+  .champrecherche {
+    width: 150px;
+  }
+
+  ::placeholder {
+    font-size: small;
+  }
+
+  .navbis {
+    width: 280px;
   }
 }
