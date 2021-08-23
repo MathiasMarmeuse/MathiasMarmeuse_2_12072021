@@ -4,8 +4,6 @@
   font-family: "Raleway", sans-serif;
 }
 
-/*Body*/
-
 /*Header*/
 
 header {
@@ -582,11 +580,23 @@ a {
     margin-right: 25px;
   }
 
+  /*Actions*/
+
   .filtres {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
+
+  .filtres > * {
+    margin: 10px;
+  }
+
+  .txtfiltres {
+    margin-left: 10px;
+  }
+
+  /*Populaires*/
 
   #populaires {
     margin: unset;
@@ -609,6 +619,8 @@ a {
   .fa-chart-line {
     margin-left: 220px;
   }
+
+/*Hébergement*/
 
   #hebergement {
     background-color: unset;
@@ -639,6 +651,8 @@ a {
     font-weight: 800;
     font-size: large;
   }
+
+/*Activités*/
 
   #activites {
     display: flex;
@@ -689,13 +703,7 @@ a {
     width: 480px;
   }
 
-  .filtres > * {
-    margin: 10px;
-  }
-
-  .txtfiltres {
-    margin-left: 10px;
-  }
+  
 }
 
 @media screen and (max-width: 540px) {
@@ -706,6 +714,8 @@ a {
   main > * {
     margin: 0px 0px;
   }
+
+/*Header*/
 
   .principal {
     display: none;
@@ -762,6 +772,8 @@ a {
     padding-bottom: 15px;
   }
 
+/*Actions*/
+
   #action {
     margin: 25px;
   }
@@ -801,6 +813,16 @@ a {
     padding: 0px;
   }
 
+  .filtres > * {
+    margin: 10px;
+  }
+
+  .txtfiltres {
+    margin-left: 10px;
+  }
+
+/*Populaires*/
+
   #populaires {
     padding: unset;
   }
@@ -818,6 +840,8 @@ a {
   .fa-chart-line {
     margin-left: 130px;
   }
+
+  /*Hébergement*/
 
   .h2hebergement {
     margin-left: 0px;
@@ -843,6 +867,8 @@ a {
     margin-bottom: 20px;
     margin-left: 25px;
   }
+
+  /*Activités*/
 
   .h2activites {
     margin-left: 0px;
@@ -880,13 +906,7 @@ a {
     width: 496px;
   }
 
-  .filtres > * {
-    margin: 10px;
-  }
-
-  .txtfiltres {
-    margin-left: 10px;
-  }
+  /*Footer*/
 
   #conteneurfooter {
     flex-direction: column;
@@ -908,6 +928,9 @@ a {
 }
 
 @media screen and (max-width: 425px) {
+  
+  /*Activités*/
+
   .tg1 {
     min-height: 254px;
     width: 392px;
@@ -940,13 +963,21 @@ a {
 }
 
 @media screen and (max-width: 414px) {
+  
+/*Hébergement*/
+
   .titrehebergement {
     width: 380px;
   }
 
+/*Header*/
+
   .navbis {
     width: 414px;
   }
+
+/*Activités*/
+
   .tg1 {
     min-height: 254px;
     width: 382px;
@@ -979,17 +1010,53 @@ a {
 }
 
 @media screen and (max-width: 375px) {
-  body {
+
+body {
     padding-left: unset;
     padding-right: unset;
   }
+
+/*Header*/
+
+  .navbis {
+  width: 375px;
+  }
+
+/*Populaires*/
+
   .fa-chart-line {
     margin-left: 95px;
   }
 
+  .popcardimg {
+    width: 135px;
+    height: 135px;
+  }
+
+  .infoimg {
+    padding-bottom: 0px;
+  }
+
+  .starcontainer {
+    padding-bottom: 5px;
+  }
+
+
+/*Hébergement*/
+
   .hcard {
     width: 90%;
   }
+
+  .himg {
+    height: 125px;
+  }
+
+  .titrehebergement {
+    width: 330px;
+  }
+
+/*Activités*/
 
   .tg1 {
     min-height: 229px;
@@ -1019,35 +1086,13 @@ a {
   .g {
     min-height: 229px;
     width: 347px;
-  }
-
-  .navbis {
-    width: 375px;
-  }
-
-  .popcardimg {
-    width: 135px;
-    height: 135px;
-  }
-
-  .infoimg {
-    padding-bottom: 0px;
-  }
-
-  .starcontainer {
-    padding-bottom: 5px;
-  }
-
-  .himg {
-    height: 125px;
-  }
-
-  .titrehebergement {
-    width: 330px;
-  }
+  } 
 }
 
 @media screen and (max-width: 360px) {
+  
+  /*Header*/
+  
   .logoimg {
     width: 100px;
   }
@@ -1055,6 +1100,8 @@ a {
   .navbis {
     width: 320px;
   }
+
+  /*Actions*/
 
   .h1action {
     font-size: large;
@@ -1090,6 +1137,8 @@ a {
     font-weight: 500;
   }
 
+  /*Populaires*/
+
   .titrecardpop {
     font-size: small;
     font-weight: 800;
@@ -1117,6 +1166,8 @@ a {
   .starcontainer > * {
     font-size: small;
   }
+
+/*Hébergement*/
 
   .h2pop {
     font-size: larger;
@@ -1147,6 +1198,8 @@ a {
   .hstarcontainer > * {
     font-size: small;
   }
+
+/*Activités*/
 
   .tg1 {
     min-height: 180px;
@@ -1182,6 +1235,8 @@ a {
     font-size: medium;
   }
 
+/*Footer*/
+
   .titrefooter {
     font-weight: 800;
     width: 200px;
@@ -1198,9 +1253,13 @@ a {
     padding-right: unset;
   }
 
+  /*Hébergement*/
+
   .titrehebergement {
     width: 290px;
   }
+
+  /*Activités*/
 
   .tg1 {
     min-height: 180px;
@@ -1239,9 +1298,13 @@ a {
     padding-right: unset;
   }
 
+  /*Hébergement*/
+
   .titrehebergement {
     width: 290px;
   }
+
+  /*Activités*/
 
   .tg1 {
     min-height: 180px;
@@ -1273,9 +1336,13 @@ a {
     width: 262px;
   }
 
+/*Populaires*/
+
   .fa-chart-line {
     margin-left: 50px;
   }
+
+  /*Actions*/
 
   .filtreswrapper {
     margin-bottom: 0;
@@ -1294,6 +1361,8 @@ a {
   ::placeholder {
     font-size: small;
   }
+
+/*Header*/
 
   .navbis {
     width: 280px;
